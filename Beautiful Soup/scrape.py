@@ -60,8 +60,8 @@ if __name__ == "__main__":
         for i, (name,price,location) in enumerate(sorted_results,start=1):
             csv_writer.writerow([name,price,location])
     
-#    from_email = "studentdent@yahoo.com" 
-#    to_email = ["hayatwhitecomp@gmail.com"] 
+#    from_email = "" 
+#    to_email = [""] 
 #    subject = "Listings"
 #    body = "Please find attached the listings CSV file."
 #    msg = MIMEMultipart()
@@ -76,9 +76,9 @@ if __name__ == "__main__":
 #    encoders.encode_base64(part)
 #    part.add_header('Content-Disposition', "attachment; filename %s" % filename)
 #    msg.attach(part)
-#    server = smtplib.SMTP("smtp.mail.yahoo.com", 587)
+#    server = smtplib.SMTP("", 587)
 #    server.starttls()
-#    server.login(from_email, "Jaimeisawesome11!")
+#    server.login(from_email, "")
  #   text = msg.as_string()
  #   server.sendmail(from_email,to_email,text)
  #   server.quit()
